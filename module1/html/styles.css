@@ -38,3 +38,30 @@ nav ul {
     gap: 60px;
     margin-right: 50px
 }
+
+nav a {
+    color: #222;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: block;
+    text-align: center;
+    padding: 140px 35px 40px;
+    background: linear-gradient(to bottom, #c8c8c8 0%, #888 45%, #f5f1ea 100%);
+}
+
+.kuva {
+    background: #333;
+    color: #999;
+    font-family: Arial, sans-serif;
+    font-size: 44px;
+    height: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
