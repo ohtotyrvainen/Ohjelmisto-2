@@ -15,6 +15,7 @@ const luku1 = parseFloat(luku1STR);
 const luku2 = parseFloat(luku2STR);
 const luku3 = parseFloat(luku3STR);
 
+
 let number = null;
 number = luku1 + luku2 + luku3;
 document.querySelector("#target2"). innerHTML =
@@ -28,3 +29,12 @@ document.querySelector("#target3").innerHTML =
     document.querySelector("#target3").innerHTML =
     "Antamasi vuosiluku " + vuosiluku + " ei ole karkausvuosi";
 }
+
+const neliojuuri = confirm("Lasketaanko neliöjuuri: ");
+
+const nelio = parseFloat(prompt("Syötäluku josta neliöjuuri lasketaan: "))
+
+const tulos = Math.sqrt(nelio);
+
+document.querySelector("#target4").innerHTML =
+    tulos
