@@ -82,5 +82,16 @@ nav a:hover {
 .auto img {
     width: 100%;
     height: 250px;
-    object-fit: cover   ;
+    object-fit: flex   ;
+}
+
+.kartta{
+    width: 500px;
+}
+.kartta img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
