@@ -63,4 +63,19 @@ if (neliojuuri === false) {
 
     }   
 }
-    
+
+// tehtava 5
+
+const arpakuutio = parseInt(prompt("Syötä luku kuinka monta kertaa arpakuutiota heitetään: "));
+
+let silmaluvut = "";
+
+for (let i = 0; i < arpakuutio; i++) {
+    const heitto = Math.floor(Math.random() * 6) + 1;
+    silmaluvut = silmaluvut + heitto + " ";
+
+}
+
+document.querySelector("#target5").innerHTML =
+    silmaluvut
+
