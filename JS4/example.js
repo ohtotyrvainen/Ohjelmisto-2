@@ -12,3 +12,11 @@ function RemoveLetterFromH1() {
     var h1 = document.querySelector("h1");
     h1.textContent = h1.textContent.slice(0, -1);
 }
+
+function MouseOver(obj) {
+    obj.innerHTML = "GET OFF ME!!!"
+}
+
+function MouseOut(obj) {
+    obj.innerHTML = "Kiitos!"
+}
