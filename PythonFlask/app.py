@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+from countryinfo import CountryInfo
 app = Flask(__name__)
 
 
@@ -12,6 +13,21 @@ def is_leap_year(year):
         return jsonify({"Vuosi": f"{year} on karkausvuosi"})
     else:
         return jsonify({"Vuosi": f"{year} ei ole karkausvuosi"})
+
+
+
+def load_capitals():
+    return
+
+def find_country(capitals, country):
+    return
+
+
+@app.route("/capital/<country>")
+def get_capital(country):
+    capitals = load_capitals()
+    name = 
+
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=3000, debug=True)
