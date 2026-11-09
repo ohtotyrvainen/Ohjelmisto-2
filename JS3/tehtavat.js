@@ -34,4 +34,15 @@ numbers.sort((a, b) => b - a);
 for(let i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
 }
+// Tehtävä 3
+
+const nimet = []
+
+for (let i = 0; i < 6; i++) {
+    nimet.push(prompt(`Syötä koiran ${i + 1} nimi`))
+}
+
+for (let i = 0; i < nimet.length; i++) {
+    console.log(`Nimi: ${nimet[i]}`)
+}
 
